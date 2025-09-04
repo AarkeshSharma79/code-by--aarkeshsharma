@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 int i,a[100],n,pos,m;
-cout<<"enter the size of array";
+cout<<"enter the size of array less than 100";
 cin>>n;
 cout<<"enter the array element";
 for(i=0;i<n;i++)
@@ -23,4 +23,5 @@ for(i=0;i<n;i++)
 {
     cout<<a[i]<<" ";
 }
+
 }
